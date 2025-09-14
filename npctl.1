@@ -1,0 +1,45 @@
+.TH NPCTL 1 "September 2025" "NeXTSTEP" "User Commands"
+.SH NAME
+npctl \- control and print to NeXT Laser Printer
+.SH SYNOPSIS
+.B npctl
+[\-v] on | off | reset | status | setdpi | setmargins | print | demo
+.SH DESCRIPTION
+.B npctl
+is a low-level utility to control the NeXT Laser Printer via
+.I /dev/np0.
+It supports querying printer status, switching power, setting margins
+and resolution, and printing via
+.BR lpr (1).
+.SH COMMANDS
+.TP
+.B on
+Power on the printer.
+.TP
+.B off
+Power off the printer.
+.TP
+.B reset
+Cycle printer power off and on.
+.TP
+.B status
+Show current printer status and paper size.
+.TP
+.B setdpi 300|400
+Change resolution.
+.TP
+.B setmargins left top width height
+Set printer margins.
+.TP
+.B print file
+Print PostScript file via
+.BR lpr (1).
+.TP
+.B demo
+Print a built-in test page.
+.SH OPTIONS
+.TP
+.B \-v
+Enable verbose messages.
+.SH SEE ALSO
+np(4), lpr(1)
