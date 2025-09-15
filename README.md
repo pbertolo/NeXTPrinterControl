@@ -1,9 +1,10 @@
-# NeXTPrinterControl
- Multi-function NeXT Laser Printer N2000 Control Utility
+ NeXTPrinterControl: yet another multi-function NeXT Laser Printer N2000 Control Utility.
+  
+ ---------------------------------------------------------------------------------------
  
- This is the first version of a small K&R compatible C program, which allows the 
- administrator of a NeXT Step system to control and inquiry the status of a physically 
- connected NeXT Laser Printer N2000.
+ NeXTPrinterControl is a small K&R compatible C program, 
+ which allows the administrator of a NeXT Step system to control and inquiry the 
+ status of a connected NeXT Laser Printer N2000.
  
  Originally, the idea was to build a software tool that could allow the identification of
  faulty hardware, hence facilitating the restoration of existing printers, which are 
@@ -21,7 +22,32 @@
  
  Use "make install" for installing the program and "make uninstall" for removing it.
  
- Refer to the manual page "man npctl" for the usage.
+ After the installation, please refer to the manual page for the usage ("man npctl").
+ 
+ Have fun!
+ 
+ Paolo
+
+ ---------------------------------------------------------------------------------------
+  
+ Copyright (C) 2025 Paolo Bertolo
+ 
+ NeXTPrinterControl is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ any later version.
+ 
+ NeXTPrinterControl is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ General Public License for more details.
+ 
+ You should have received a copy of the GNU General Public License
+ along with NeXTPrinterControl.  
+ If not, see <https://www.gnu.org/licenses/>.
+ 
+ ---------------------------------------------------------------------------------------
+
  
  
  
